@@ -1,0 +1,4 @@
+[[language]]
+name = "go"
+formatter = { command = "gofmt" }
+

@@ -1,0 +1,14 @@
+# theme = "base16_terminal_kitty"
+theme = "nord_tr"
+
+# At most one section each of 'keys.normal', 'keys.insert' and 'keys.select'
+[keys.normal.Z]
+Z = ":wq"
+Q = ":q!"
+
+[keys.insert]
+C-c = "normal_mode" # Maps Ctrl-s to the typable command :w which is an alias for :write (save file)
+
+[editor]
+clipboard-provider = "wayland"
+
