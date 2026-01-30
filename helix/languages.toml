@@ -1,4 +1,6 @@
 [[language]]
 name = "go"
-formatter = { command = "gofmt" }
+auto-format = true
+language-servers = ["gopls", "golangci-lint2-langserver"]
+formatter = { command = "goimports" }
 
